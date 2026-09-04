@@ -5,6 +5,7 @@ __pycache__/
 .venv/
 venv/
 env/
+.pytest_cache/
 
 # Environment / secrets
 .env
@@ -20,13 +21,13 @@ Desktop.ini
 .vscode/
 .idea/
 
-# Data and models — keep the repo light
-data/raw/
-data/samples/*.jpg
-data/samples/*.jpeg
-data/samples/*.png
+# Generated at runtime. The sample labels ARE committed (small, and the demo
+# needs them straight after a clone), but the scan database is not.
+data/scans.db
 *.db
 *.sqlite3
+
+# Models and large binaries
 models/
 *.onnx
 *.pt

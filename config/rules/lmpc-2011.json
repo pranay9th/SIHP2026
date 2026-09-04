@@ -1,0 +1,252 @@
+{
+  "rule_pack": "LMPC-2011",
+  "version": "1.0.0",
+  "description": "Machine-readable subset of the Legal Metrology (Packaged Commodities) Rules, 2011, for automated compliance checking of retail packages.",
+  "authority": "Ministry of Consumer Affairs, Food & Public Distribution, Government of India",
+  "disclaimer": "Advisory only. Verdicts produced by this rule pack are decision support for a Legal Metrology officer, not an adjudication. Always verify against the bare Act and Rules before any enforcement action.",
+
+  "letter_height_table": {
+    "citation": "Rule 7(2) read with Table-I",
+    "note": "Minimum height of any numeral or letter in a declaration, by area of the principal display panel (PDP).",
+    "bands": [
+      { "pdp_area_cm2_max": 50,    "min_height_mm": 1.0, "min_height_mm_blown": 1.5 },
+      { "pdp_area_cm2_max": 100,   "min_height_mm": 1.5, "min_height_mm_blown": 3.0 },
+      { "pdp_area_cm2_max": 500,   "min_height_mm": 2.5, "min_height_mm_blown": 4.0 },
+      { "pdp_area_cm2_max": 2500,  "min_height_mm": 4.0, "min_height_mm_blown": 6.0 },
+      { "pdp_area_cm2_max": null,  "min_height_mm": 6.0, "min_height_mm_blown": 6.0 }
+    ]
+  },
+
+  "exemptions": [
+    {
+      "id": "LMPC.R26.a",
+      "citation": "Rule 26(a)",
+      "description": "Package of net weight 10 g or less, or net volume 10 ml or less, is exempt from the Chapter II declarations.",
+      "note": "Packages above 10 and up to 20 g/ml still require net quantity and retail sale price."
+    },
+    {
+      "id": "LMPC.R26.b",
+      "citation": "Rule 26(b)",
+      "description": "Fast food items packed by a restaurant or hotel are exempt."
+    },
+    {
+      "id": "LMPC.R26.d",
+      "citation": "Rule 26(d)",
+      "description": "Agricultural farm produce in packages of more than 50 kg is exempt."
+    }
+  ],
+
+  "rules": [
+    {
+      "id": "LMPC.R6.1.a.manufacturer",
+      "citation": "Rule 6(1)(a)",
+      "title": "Name and address of the manufacturer or packer",
+      "kind": "presence",
+      "field": "manufacturer",
+      "severity": "major",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "Legal Metrology Act 2009, s.36(1); LMPC R.32",
+      "remedy": "Print the full name and address of the manufacturer, and of the packer where different.",
+      "applies_to_package_types": ["retail", "wholesale"]
+    },
+    {
+      "id": "LMPC.R6.1.aa.country_of_origin",
+      "citation": "Rule 6(1)(aa)",
+      "title": "Country of origin for imported packages",
+      "kind": "presence",
+      "field": "country_of_origin",
+      "severity": "major",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "condition": { "is_imported": true },
+      "exposure": "Legal Metrology Act 2009, s.36(1)",
+      "remedy": "Declare the country of origin, manufacture or assembly on an imported package.",
+      "applies_to_package_types": ["retail"]
+    },
+    {
+      "id": "LMPC.R6.1.b.common_name",
+      "citation": "Rule 6(1)(b)",
+      "title": "Common or generic name of the commodity",
+      "kind": "presence",
+      "field": "common_name",
+      "severity": "major",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "Legal Metrology Act 2009, s.36(1); LMPC R.32",
+      "remedy": "Print the common or generic name of the commodity contained in the package.",
+      "applies_to_package_types": ["retail", "wholesale"]
+    },
+    {
+      "id": "LMPC.R6.1.c.net_quantity",
+      "citation": "Rule 6(1)(c)",
+      "title": "Net quantity in standard units",
+      "kind": "presence",
+      "field": "net_quantity",
+      "severity": "critical",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "Legal Metrology Act 2009, s.36(1) and s.36(2)",
+      "remedy": "Declare the net quantity in the standard unit of weight, measure or number.",
+      "applies_to_package_types": ["retail", "wholesale"]
+    },
+    {
+      "id": "LMPC.R6.1.d.mfg_date",
+      "citation": "Rule 6(1)(d)",
+      "title": "Month and year of manufacture, packing or import",
+      "kind": "presence",
+      "field": "mfg_date",
+      "severity": "major",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "Legal Metrology Act 2009, s.36(1); LMPC R.32",
+      "remedy": "Declare the month and year in which the commodity was manufactured, pre-packed or imported.",
+      "applies_to_package_types": ["retail"]
+    },
+    {
+      "id": "LMPC.R6.1.e.mrp_present",
+      "citation": "Rule 6(1)(e)",
+      "title": "Retail sale price declared",
+      "kind": "presence",
+      "field": "mrp",
+      "severity": "critical",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "Legal Metrology Act 2009, s.36(1)",
+      "remedy": "Declare the retail sale price of the package.",
+      "applies_to_package_types": ["retail"]
+    },
+    {
+      "id": "LMPC.R6.1.e.mrp_wording",
+      "citation": "Rule 6(1)(e)",
+      "title": "Retail sale price stated as inclusive of all taxes",
+      "kind": "pattern",
+      "field": "mrp_context",
+      "pattern": "(?i)inclusive\\s+of\\s+all\\s+taxes",
+      "requires_field": "mrp",
+      "severity": "major",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "Legal Metrology Act 2009, s.36(1); LMPC R.32",
+      "remedy": "State the price as 'Maximum Retail Price Rs. <value> (inclusive of all taxes)'.",
+      "applies_to_package_types": ["retail"]
+    },
+    {
+      "id": "LMPC.R6.1.e.mrp_rounding",
+      "citation": "Rule 6(1)(e), proviso",
+      "title": "Retail sale price rounded to the nearest rupee or 50 paise",
+      "kind": "rounding",
+      "field": "mrp_value",
+      "allowed_remainders_paise": [0, 50],
+      "severity": "minor",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "LMPC R.32",
+      "remedy": "Round the retail sale price to the nearest rupee or 50 paise.",
+      "applies_to_package_types": ["retail"]
+    },
+    {
+      "id": "LMPC.R6.1.consumer_care",
+      "citation": "Rule 6(1), consumer care provision",
+      "title": "Consumer care contact details",
+      "kind": "presence",
+      "field": "consumer_care",
+      "severity": "major",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "LMPC R.32",
+      "remedy": "Print the name, address and telephone number or e-mail of the person to be contacted for consumer complaints.",
+      "applies_to_package_types": ["retail"]
+    },
+    {
+      "id": "LMPC.R11.no_qualifiers",
+      "citation": "Rule 11",
+      "title": "Net quantity declared without qualifying words",
+      "kind": "forbidden_pattern",
+      "field": "net_quantity_context",
+      "pattern": "(?i)\\b(approx\\.?|approximately|about|minimum|not\\s+less\\s+than|more\\s+or\\s+less)\\b",
+      "requires_field": "net_quantity",
+      "severity": "major",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "LMPC R.32",
+      "remedy": "Remove qualifying expressions. The net quantity must be stated as an exact declared quantity.",
+      "applies_to_package_types": ["retail", "wholesale"]
+    },
+    {
+      "id": "LMPC.R13.units",
+      "citation": "Rule 13",
+      "title": "Correct unit for the declared quantity",
+      "kind": "unit_check",
+      "field": "net_quantity",
+      "severity": "major",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "LMPC R.32",
+      "remedy": "Use grams below 1 kilogram and kilograms at or above; millilitres below 1 litre and litres at or above.",
+      "applies_to_package_types": ["retail", "wholesale"]
+    },
+    {
+      "id": "LMPC.R13.no_traditional_units",
+      "citation": "Rule 13",
+      "title": "No dozen, gross or score notation",
+      "kind": "forbidden_pattern",
+      "field": "raw_text",
+      "pattern": "(?i)\\b(dozen|gross|score)\\b",
+      "severity": "minor",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "LMPC R.32",
+      "remedy": "Declare quantity by number in standard units, not in dozens, gross or score.",
+      "applies_to_package_types": ["retail", "wholesale"]
+    },
+    {
+      "id": "LMPC.R9.4.language",
+      "citation": "Rule 9(4)",
+      "title": "Declarations in Hindi (Devanagari) or English",
+      "kind": "language",
+      "field": "raw_text",
+      "accepted_scripts": ["latin", "devanagari"],
+      "severity": "minor",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "LMPC R.32",
+      "remedy": "Make the mandatory declarations in Hindi in Devanagari script or in English. Other languages may be added.",
+      "applies_to_package_types": ["retail", "wholesale"]
+    },
+    {
+      "id": "LMPC.R7.2.letter_height",
+      "citation": "Rule 7(2) read with Table-I",
+      "title": "Minimum height of letters and numerals",
+      "kind": "letter_height",
+      "measured_fields": ["mrp", "net_quantity"],
+      "severity": "critical",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "Legal Metrology Act 2009, s.36(1); LMPC R.32",
+      "remedy": "Increase the type size of the declaration to at least the height required for this principal display panel area.",
+      "applies_to_package_types": ["retail"],
+      "precedence_yields_to": [
+        {
+          "regime": "Medical Devices Rules, 2017",
+          "citation": "LMPC (Amendment) Rules, 2025, notified 29 Oct 2025",
+          "note": "For medical device packages the Medical Devices Rules 2017 govern height and width of numerals and letters."
+        }
+      ]
+    },
+    {
+      "id": "LMPC.R7.3.letter_width",
+      "citation": "Rule 7(3)",
+      "title": "Letter width at least one third of its height",
+      "kind": "letter_width",
+      "measured_fields": ["mrp", "net_quantity"],
+      "min_width_ratio": 0.3333,
+      "severity": "minor",
+      "effective_from": "2011-04-01",
+      "effective_to": null,
+      "exposure": "LMPC R.32",
+      "remedy": "Use a typeface whose character width is at least one third of the character height.",
+      "applies_to_package_types": ["retail"]
+    }
+  ]
+}

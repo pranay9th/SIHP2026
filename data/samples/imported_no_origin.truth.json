@@ -1,0 +1,115 @@
+{
+  "name": "imported_no_origin",
+  "dpi": 300,
+  "true_mm_per_px": 0.08466666666666667,
+  "marker_mm": 50.0,
+  "panel_mm": [
+    90,
+    70
+  ],
+  "pdp_area_cm2": 63.0,
+  "declaration_cap_mm": 2.4,
+  "true_declaration_cap_mm": 2.3707,
+  "true_declaration_numeral_mm": 2.4553,
+  "expect": "NON-COMPLIANT",
+  "lines": [
+    {
+      "text": "Dark Chocolate Bar",
+      "requested_cap_mm": 4.5,
+      "true_cap_mm": 4.4873,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        131,
+        711,
+        56
+      ]
+    },
+    {
+      "text": "Imported by: Global Treats India Pvt Ltd,",
+      "requested_cap_mm": 2.0,
+      "true_cap_mm": 2.032,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        212,
+        663,
+        32
+      ]
+    },
+    {
+      "text": "Andheri East, Mumbai 400069",
+      "requested_cap_mm": 2.0,
+      "true_cap_mm": 2.032,
+      "digits": "400069",
+      "true_numeral_mm": 2.032,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        269,
+        499,
+        29
+      ]
+    },
+    {
+      "text": "Net Wt. 80 g",
+      "requested_cap_mm": 2.4,
+      "true_cap_mm": 2.3707,
+      "digits": "80",
+      "true_numeral_mm": 2.4553,
+      "is_declaration": true,
+      "bbox": [
+        118,
+        325,
+        246,
+        37
+      ]
+    },
+    {
+      "text": "MRP Rs.180.00 (inclusive of all taxes)",
+      "requested_cap_mm": 2.4,
+      "true_cap_mm": 2.3707,
+      "digits": "180.00",
+      "true_numeral_mm": 2.4553,
+      "is_declaration": true,
+      "bbox": [
+        118,
+        388,
+        732,
+        35
+      ]
+    },
+    {
+      "text": "Mfd: 11/2025",
+      "requested_cap_mm": 2.0,
+      "true_cap_mm": 2.032,
+      "digits": "2025",
+      "true_numeral_mm": 2.032,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        448,
+        220,
+        28
+      ]
+    },
+    {
+      "text": "Consumer care: care@globaltreats.co.in",
+      "requested_cap_mm": 2.0,
+      "true_cap_mm": 2.032,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        501,
+        662,
+        32
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "name": "compliant_biscuits",
+  "dpi": 300,
+  "true_mm_per_px": 0.08466666666666667,
+  "marker_mm": 50.0,
+  "panel_mm": [
+    120,
+    90
+  ],
+  "pdp_area_cm2": 108.0,
+  "declaration_cap_mm": 3.0,
+  "true_declaration_cap_mm": 2.9633,
+  "true_declaration_numeral_mm": 3.1327,
+  "expect": "COMPLIANT",
+  "lines": [
+    {
+      "text": "Crisp Salted Biscuits",
+      "requested_cap_mm": 5.0,
+      "true_cap_mm": 4.9953,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        132,
+        827,
+        79
+      ]
+    },
+    {
+      "text": "Manufactured by: Sunrise Foods Pvt Ltd,",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        237,
+        725,
+        34
+      ]
+    },
+    {
+      "text": "Plot 14, MIDC Industrial Area, Pune 411019",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "411019",
+      "true_numeral_mm": 2.2013,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        297,
+        778,
+        32
+      ]
+    },
+    {
+      "text": "Net Wt. 200 g",
+      "requested_cap_mm": 3.0,
+      "true_cap_mm": 2.9633,
+      "digits": "200",
+      "true_numeral_mm": 3.1327,
+      "is_declaration": true,
+      "bbox": [
+        118,
+        357,
+        334,
+        46
+      ]
+    },
+    {
+      "text": "MRP Rs.40.00 (inclusive of all taxes)",
+      "requested_cap_mm": 3.0,
+      "true_cap_mm": 2.9633,
+      "digits": "40.00",
+      "true_numeral_mm": 3.1327,
+      "is_declaration": true,
+      "bbox": [
+        118,
+        431,
+        871,
+        43
+      ]
+    },
+    {
+      "text": "Mfd: 03/2026    Best Before 9 months from packing",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "2026",
+      "true_numeral_mm": 2.2013,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        500,
+        924,
+        34
+      ]
+    },
+    {
+      "text": "Consumer care: care@sunrisefoods.in  1800 200 3040",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "1800",
+      "true_numeral_mm": 2.2013,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        560,
+        981,
+        34
+      ]
+    }
+  ]
+}

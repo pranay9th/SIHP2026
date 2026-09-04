@@ -1,0 +1,577 @@
+[
+  {
+    "name": "compliant_biscuits",
+    "dpi": 300,
+    "true_mm_per_px": 0.08466666666666667,
+    "marker_mm": 50.0,
+    "panel_mm": [
+      120,
+      90
+    ],
+    "pdp_area_cm2": 108.0,
+    "declaration_cap_mm": 3.0,
+    "true_declaration_cap_mm": 2.9633,
+    "true_declaration_numeral_mm": 3.1327,
+    "expect": "COMPLIANT",
+    "lines": [
+      {
+        "text": "Crisp Salted Biscuits",
+        "requested_cap_mm": 5.0,
+        "true_cap_mm": 4.9953,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          132,
+          827,
+          79
+        ]
+      },
+      {
+        "text": "Manufactured by: Sunrise Foods Pvt Ltd,",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          237,
+          725,
+          34
+        ]
+      },
+      {
+        "text": "Plot 14, MIDC Industrial Area, Pune 411019",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "411019",
+        "true_numeral_mm": 2.2013,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          297,
+          778,
+          32
+        ]
+      },
+      {
+        "text": "Net Wt. 200 g",
+        "requested_cap_mm": 3.0,
+        "true_cap_mm": 2.9633,
+        "digits": "200",
+        "true_numeral_mm": 3.1327,
+        "is_declaration": true,
+        "bbox": [
+          118,
+          357,
+          334,
+          46
+        ]
+      },
+      {
+        "text": "MRP Rs.40.00 (inclusive of all taxes)",
+        "requested_cap_mm": 3.0,
+        "true_cap_mm": 2.9633,
+        "digits": "40.00",
+        "true_numeral_mm": 3.1327,
+        "is_declaration": true,
+        "bbox": [
+          118,
+          431,
+          871,
+          43
+        ]
+      },
+      {
+        "text": "Mfd: 03/2026    Best Before 9 months from packing",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "2026",
+        "true_numeral_mm": 2.2013,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          500,
+          924,
+          34
+        ]
+      },
+      {
+        "text": "Consumer care: care@sunrisefoods.in  1800 200 3040",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "1800",
+        "true_numeral_mm": 2.2013,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          560,
+          981,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "name": "undersize_letters",
+    "dpi": 300,
+    "true_mm_per_px": 0.08466666666666667,
+    "marker_mm": 50.0,
+    "panel_mm": [
+      120,
+      90
+    ],
+    "pdp_area_cm2": 108.0,
+    "declaration_cap_mm": 1.9,
+    "true_declaration_cap_mm": 1.8627,
+    "true_declaration_numeral_mm": 1.8627,
+    "expect": "NON-COMPLIANT",
+    "lines": [
+      {
+        "text": "Toffee Assorted Candy",
+        "requested_cap_mm": 5.0,
+        "true_cap_mm": 4.9953,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          117,
+          132,
+          906,
+          79
+        ]
+      },
+      {
+        "text": "Manufactured by: Meethi Foods Ltd,",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          237,
+          645,
+          34
+        ]
+      },
+      {
+        "text": "22 Ring Road, Indore 452001",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "452001",
+        "true_numeral_mm": 2.2013,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          297,
+          526,
+          34
+        ]
+      },
+      {
+        "text": "Net Wt. 150 g",
+        "requested_cap_mm": 1.9,
+        "true_cap_mm": 1.8627,
+        "digits": "150",
+        "true_numeral_mm": 1.8627,
+        "is_declaration": true,
+        "bbox": [
+          118,
+          356,
+          209,
+          28
+        ]
+      },
+      {
+        "text": "MRP Rs.25.00 (inclusive of all taxes)",
+        "requested_cap_mm": 1.9,
+        "true_cap_mm": 1.8627,
+        "digits": "25.00",
+        "true_numeral_mm": 1.8627,
+        "is_declaration": true,
+        "bbox": [
+          118,
+          408,
+          544,
+          27
+        ]
+      },
+      {
+        "text": "Mfd: 01/2026",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "2026",
+        "true_numeral_mm": 2.2013,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          461,
+          240,
+          31
+        ]
+      },
+      {
+        "text": "Consumer care: help@meethi.in  1800 121 2121",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "1800",
+        "true_numeral_mm": 2.2013,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          518,
+          879,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "name": "missing_tax_wording",
+    "dpi": 300,
+    "true_mm_per_px": 0.08466666666666667,
+    "marker_mm": 50.0,
+    "panel_mm": [
+      150,
+      110
+    ],
+    "pdp_area_cm2": 165.0,
+    "declaration_cap_mm": 3.2,
+    "true_declaration_cap_mm": 3.2173,
+    "true_declaration_numeral_mm": 3.3867,
+    "expect": "NON-COMPLIANT",
+    "lines": [
+      {
+        "text": "Coconut Hair Oil",
+        "requested_cap_mm": 5.0,
+        "true_cap_mm": 4.9953,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          132,
+          661,
+          63
+        ]
+      },
+      {
+        "text": "Manufactured by: Kerala Naturals LLP,",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          221,
+          686,
+          34
+        ]
+      },
+      {
+        "text": "Survey 88, Alappuzha 688001",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "688001",
+        "true_numeral_mm": 2.2013,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          281,
+          543,
+          34
+        ]
+      },
+      {
+        "text": "Net Vol. 200 ml",
+        "requested_cap_mm": 3.2,
+        "true_cap_mm": 3.2173,
+        "digits": "200",
+        "true_numeral_mm": 3.3867,
+        "is_declaration": true,
+        "bbox": [
+          118,
+          343,
+          400,
+          41
+        ]
+      },
+      {
+        "text": "MRP Rs.99.00",
+        "requested_cap_mm": 3.2,
+        "true_cap_mm": 3.2173,
+        "digits": "99.00",
+        "true_numeral_mm": 3.3867,
+        "is_declaration": true,
+        "bbox": [
+          118,
+          413,
+          357,
+          40
+        ]
+      },
+      {
+        "text": "Mfd: 02/2026",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "2026",
+        "true_numeral_mm": 2.2013,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          479,
+          240,
+          31
+        ]
+      },
+      {
+        "text": "Consumer care: care@keralanaturals.in",
+        "requested_cap_mm": 2.2,
+        "true_cap_mm": 2.2013,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          536,
+          713,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "name": "wrong_unit_and_qualifier",
+    "dpi": 300,
+    "true_mm_per_px": 0.08466666666666667,
+    "marker_mm": 50.0,
+    "panel_mm": [
+      200,
+      140
+    ],
+    "pdp_area_cm2": 280.0,
+    "declaration_cap_mm": 3.5,
+    "true_declaration_cap_mm": 3.4713,
+    "true_declaration_numeral_mm": 3.6407,
+    "expect": "NON-COMPLIANT",
+    "lines": [
+      {
+        "text": "Premium Basmati Rice",
+        "requested_cap_mm": 5.5,
+        "true_cap_mm": 5.5033,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          133,
+          1006,
+          69
+        ]
+      },
+      {
+        "text": "Packed by: Doaba Agro Mills,",
+        "requested_cap_mm": 2.4,
+        "true_cap_mm": 2.3707,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          228,
+          560,
+          38
+        ]
+      },
+      {
+        "text": "Grand Trunk Road, Karnal 132001",
+        "requested_cap_mm": 2.4,
+        "true_cap_mm": 2.3707,
+        "digits": "132001",
+        "true_numeral_mm": 2.4553,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          292,
+          658,
+          34
+        ]
+      },
+      {
+        "text": "Net Weight approx. 1500 g",
+        "requested_cap_mm": 3.5,
+        "true_cap_mm": 3.4713,
+        "digits": "1500",
+        "true_numeral_mm": 3.6407,
+        "is_declaration": true,
+        "bbox": [
+          118,
+          354,
+          753,
+          55
+        ]
+      },
+      {
+        "text": "MRP Rs.249.75",
+        "requested_cap_mm": 3.5,
+        "true_cap_mm": 3.4713,
+        "digits": "249.75",
+        "true_numeral_mm": 3.6407,
+        "is_declaration": true,
+        "bbox": [
+          118,
+          438,
+          421,
+          43
+        ]
+      },
+      {
+        "text": "Mfd: 12/2025",
+        "requested_cap_mm": 2.4,
+        "true_cap_mm": 2.3707,
+        "digits": "2025",
+        "true_numeral_mm": 2.4553,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          507,
+          260,
+          34
+        ]
+      },
+      {
+        "text": "Consumer care: 1800 313 1313",
+        "requested_cap_mm": 2.4,
+        "true_cap_mm": 2.3707,
+        "digits": "1800",
+        "true_numeral_mm": 2.4553,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          568,
+          619,
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "name": "imported_no_origin",
+    "dpi": 300,
+    "true_mm_per_px": 0.08466666666666667,
+    "marker_mm": 50.0,
+    "panel_mm": [
+      90,
+      70
+    ],
+    "pdp_area_cm2": 63.0,
+    "declaration_cap_mm": 2.4,
+    "true_declaration_cap_mm": 2.3707,
+    "true_declaration_numeral_mm": 2.4553,
+    "expect": "NON-COMPLIANT",
+    "lines": [
+      {
+        "text": "Dark Chocolate Bar",
+        "requested_cap_mm": 4.5,
+        "true_cap_mm": 4.4873,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          131,
+          711,
+          56
+        ]
+      },
+      {
+        "text": "Imported by: Global Treats India Pvt Ltd,",
+        "requested_cap_mm": 2.0,
+        "true_cap_mm": 2.032,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          212,
+          663,
+          32
+        ]
+      },
+      {
+        "text": "Andheri East, Mumbai 400069",
+        "requested_cap_mm": 2.0,
+        "true_cap_mm": 2.032,
+        "digits": "400069",
+        "true_numeral_mm": 2.032,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          269,
+          499,
+          29
+        ]
+      },
+      {
+        "text": "Net Wt. 80 g",
+        "requested_cap_mm": 2.4,
+        "true_cap_mm": 2.3707,
+        "digits": "80",
+        "true_numeral_mm": 2.4553,
+        "is_declaration": true,
+        "bbox": [
+          118,
+          325,
+          246,
+          37
+        ]
+      },
+      {
+        "text": "MRP Rs.180.00 (inclusive of all taxes)",
+        "requested_cap_mm": 2.4,
+        "true_cap_mm": 2.3707,
+        "digits": "180.00",
+        "true_numeral_mm": 2.4553,
+        "is_declaration": true,
+        "bbox": [
+          118,
+          388,
+          732,
+          35
+        ]
+      },
+      {
+        "text": "Mfd: 11/2025",
+        "requested_cap_mm": 2.0,
+        "true_cap_mm": 2.032,
+        "digits": "2025",
+        "true_numeral_mm": 2.032,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          448,
+          220,
+          28
+        ]
+      },
+      {
+        "text": "Consumer care: care@globaltreats.co.in",
+        "requested_cap_mm": 2.0,
+        "true_cap_mm": 2.032,
+        "digits": "",
+        "true_numeral_mm": null,
+        "is_declaration": false,
+        "bbox": [
+          118,
+          501,
+          662,
+          32
+        ]
+      }
+    ]
+  }
+]

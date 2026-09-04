@@ -1,0 +1,29 @@
+# Naap-Tol dependencies. All free and open source; see docs/04-licensing-and-tooling.md
+#
+# System package needed separately (not installable via pip):
+#   Ubuntu/Debian : sudo apt install tesseract-ocr tesseract-ocr-hin
+#   macOS         : brew install tesseract tesseract-lang
+#   Windows       : https://github.com/UB-Mannheim/tesseract/wiki
+
+# --- core -------------------------------------------------------------
+opencv-python>=4.7          # Apache 2.0. 4.7+ has ArUco in the main module
+numpy>=1.24                 # BSD-3-Clause
+Pillow>=10.0                # MIT-CMU
+
+# --- OCR --------------------------------------------------------------
+pytesseract>=0.3.10         # Apache 2.0, wraps the Tesseract binary
+
+# --- application ------------------------------------------------------
+streamlit>=1.30             # Apache 2.0
+pandas>=2.0                 # BSD-3-Clause
+plotly>=5.18                # MIT
+fpdf2>=2.7                  # LGPL-3.0 - the only non-permissive dependency.
+                            # Fine as a library. Swap for reportlab (BSD) if a
+                            # permissive-only stack is ever required.
+
+# --- development ------------------------------------------------------
+pytest>=8.0                 # MIT
+
+# --- optional, better Hindi and curved packs --------------------------
+# Adds roughly 2 GB (PyTorch). Install only if you need it.
+# easyocr>=1.7              # Apache 2.0

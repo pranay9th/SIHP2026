@@ -1,0 +1,115 @@
+{
+  "name": "wrong_unit_and_qualifier",
+  "dpi": 300,
+  "true_mm_per_px": 0.08466666666666667,
+  "marker_mm": 50.0,
+  "panel_mm": [
+    200,
+    140
+  ],
+  "pdp_area_cm2": 280.0,
+  "declaration_cap_mm": 3.5,
+  "true_declaration_cap_mm": 3.4713,
+  "true_declaration_numeral_mm": 3.6407,
+  "expect": "NON-COMPLIANT",
+  "lines": [
+    {
+      "text": "Premium Basmati Rice",
+      "requested_cap_mm": 5.5,
+      "true_cap_mm": 5.5033,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        133,
+        1006,
+        69
+      ]
+    },
+    {
+      "text": "Packed by: Doaba Agro Mills,",
+      "requested_cap_mm": 2.4,
+      "true_cap_mm": 2.3707,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        228,
+        560,
+        38
+      ]
+    },
+    {
+      "text": "Grand Trunk Road, Karnal 132001",
+      "requested_cap_mm": 2.4,
+      "true_cap_mm": 2.3707,
+      "digits": "132001",
+      "true_numeral_mm": 2.4553,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        292,
+        658,
+        34
+      ]
+    },
+    {
+      "text": "Net Weight approx. 1500 g",
+      "requested_cap_mm": 3.5,
+      "true_cap_mm": 3.4713,
+      "digits": "1500",
+      "true_numeral_mm": 3.6407,
+      "is_declaration": true,
+      "bbox": [
+        118,
+        354,
+        753,
+        55
+      ]
+    },
+    {
+      "text": "MRP Rs.249.75",
+      "requested_cap_mm": 3.5,
+      "true_cap_mm": 3.4713,
+      "digits": "249.75",
+      "true_numeral_mm": 3.6407,
+      "is_declaration": true,
+      "bbox": [
+        118,
+        438,
+        421,
+        43
+      ]
+    },
+    {
+      "text": "Mfd: 12/2025",
+      "requested_cap_mm": 2.4,
+      "true_cap_mm": 2.3707,
+      "digits": "2025",
+      "true_numeral_mm": 2.4553,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        507,
+        260,
+        34
+      ]
+    },
+    {
+      "text": "Consumer care: 1800 313 1313",
+      "requested_cap_mm": 2.4,
+      "true_cap_mm": 2.3707,
+      "digits": "1800",
+      "true_numeral_mm": 2.4553,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        568,
+        619,
+        29
+      ]
+    }
+  ]
+}

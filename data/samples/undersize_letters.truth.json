@@ -1,0 +1,115 @@
+{
+  "name": "undersize_letters",
+  "dpi": 300,
+  "true_mm_per_px": 0.08466666666666667,
+  "marker_mm": 50.0,
+  "panel_mm": [
+    120,
+    90
+  ],
+  "pdp_area_cm2": 108.0,
+  "declaration_cap_mm": 1.9,
+  "true_declaration_cap_mm": 1.8627,
+  "true_declaration_numeral_mm": 1.8627,
+  "expect": "NON-COMPLIANT",
+  "lines": [
+    {
+      "text": "Toffee Assorted Candy",
+      "requested_cap_mm": 5.0,
+      "true_cap_mm": 4.9953,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        117,
+        132,
+        906,
+        79
+      ]
+    },
+    {
+      "text": "Manufactured by: Meethi Foods Ltd,",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        237,
+        645,
+        34
+      ]
+    },
+    {
+      "text": "22 Ring Road, Indore 452001",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "452001",
+      "true_numeral_mm": 2.2013,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        297,
+        526,
+        34
+      ]
+    },
+    {
+      "text": "Net Wt. 150 g",
+      "requested_cap_mm": 1.9,
+      "true_cap_mm": 1.8627,
+      "digits": "150",
+      "true_numeral_mm": 1.8627,
+      "is_declaration": true,
+      "bbox": [
+        118,
+        356,
+        209,
+        28
+      ]
+    },
+    {
+      "text": "MRP Rs.25.00 (inclusive of all taxes)",
+      "requested_cap_mm": 1.9,
+      "true_cap_mm": 1.8627,
+      "digits": "25.00",
+      "true_numeral_mm": 1.8627,
+      "is_declaration": true,
+      "bbox": [
+        118,
+        408,
+        544,
+        27
+      ]
+    },
+    {
+      "text": "Mfd: 01/2026",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "2026",
+      "true_numeral_mm": 2.2013,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        461,
+        240,
+        31
+      ]
+    },
+    {
+      "text": "Consumer care: help@meethi.in  1800 121 2121",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "1800",
+      "true_numeral_mm": 2.2013,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        518,
+        879,
+        34
+      ]
+    }
+  ]
+}

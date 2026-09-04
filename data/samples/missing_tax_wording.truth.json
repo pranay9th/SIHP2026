@@ -1,0 +1,115 @@
+{
+  "name": "missing_tax_wording",
+  "dpi": 300,
+  "true_mm_per_px": 0.08466666666666667,
+  "marker_mm": 50.0,
+  "panel_mm": [
+    150,
+    110
+  ],
+  "pdp_area_cm2": 165.0,
+  "declaration_cap_mm": 3.2,
+  "true_declaration_cap_mm": 3.2173,
+  "true_declaration_numeral_mm": 3.3867,
+  "expect": "NON-COMPLIANT",
+  "lines": [
+    {
+      "text": "Coconut Hair Oil",
+      "requested_cap_mm": 5.0,
+      "true_cap_mm": 4.9953,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        132,
+        661,
+        63
+      ]
+    },
+    {
+      "text": "Manufactured by: Kerala Naturals LLP,",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        221,
+        686,
+        34
+      ]
+    },
+    {
+      "text": "Survey 88, Alappuzha 688001",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "688001",
+      "true_numeral_mm": 2.2013,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        281,
+        543,
+        34
+      ]
+    },
+    {
+      "text": "Net Vol. 200 ml",
+      "requested_cap_mm": 3.2,
+      "true_cap_mm": 3.2173,
+      "digits": "200",
+      "true_numeral_mm": 3.3867,
+      "is_declaration": true,
+      "bbox": [
+        118,
+        343,
+        400,
+        41
+      ]
+    },
+    {
+      "text": "MRP Rs.99.00",
+      "requested_cap_mm": 3.2,
+      "true_cap_mm": 3.2173,
+      "digits": "99.00",
+      "true_numeral_mm": 3.3867,
+      "is_declaration": true,
+      "bbox": [
+        118,
+        413,
+        357,
+        40
+      ]
+    },
+    {
+      "text": "Mfd: 02/2026",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "2026",
+      "true_numeral_mm": 2.2013,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        479,
+        240,
+        31
+      ]
+    },
+    {
+      "text": "Consumer care: care@keralanaturals.in",
+      "requested_cap_mm": 2.2,
+      "true_cap_mm": 2.2013,
+      "digits": "",
+      "true_numeral_mm": null,
+      "is_declaration": false,
+      "bbox": [
+        118,
+        536,
+        713,
+        34
+      ]
+    }
+  ]
+}
