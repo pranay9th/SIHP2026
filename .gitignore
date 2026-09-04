@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+*.key
+*.pem
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Data and models — keep the repo light
+data/raw/
+data/samples/*.jpg
+data/samples/*.jpeg
+data/samples/*.png
+*.db
+*.sqlite3
+models/
+*.onnx
+*.pt
+
+# Build and temp output
+build/
+dist/
+*.log
+tmp/
+out/

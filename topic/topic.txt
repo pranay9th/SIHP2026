@@ -1,0 +1,6 @@
+Topic
+Ministry of Consumer Affairs, Food & Public Distribution
+
+Details:
+
+Software System to check complaiance of Packages Commodities under Legal Metrology ( Packaged Commodities ) Rules, 2011 by scanning products, images and labels.
