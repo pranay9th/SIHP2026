@@ -7,6 +7,11 @@ Theme: Agriculture, FoodTech & Rural Development · Track: Software
 
 ---
 
+> ### 👉 New here? Read [`docs/00-START-HERE.md`](docs/00-START-HERE.md) first.
+> It gives the order to read everything in — documents, then code — over about a week, with a glossary and a first-week checklist. Start there rather than with this file.
+
+---
+
 ## The idea in one sentence
 
 Photograph a packet next to a small printed reference card. The system reads all nine mandatory declarations, **measures the printed letter heights in millimetres**, checks them against the 2011 Rules, and issues a rule-by-rule report card citing the exact rule behind every failure.
@@ -87,6 +92,7 @@ app.py      Streamlit application
 
 | File | What it is |
 |---|---|
+| [`docs/00-START-HERE.md`](docs/00-START-HERE.md) | **Read this first.** The order to read everything in, a glossary, and a first-week checklist |
 | [`docs/01-problem-analysis.md`](docs/01-problem-analysis.md) | Deep technical analysis — legal surface, users, architecture, risks |
 | [`docs/02-project-roadmap.md`](docs/02-project-roadmap.md) | **Start here.** What to do, week by week, scoped for a first-year team |
 | [`docs/03-presentation-guide.md`](docs/03-presentation-guide.md) | Slide-by-slide content, speaker notes, judge Q&A |
