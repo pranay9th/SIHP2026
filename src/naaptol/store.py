@@ -60,10 +60,22 @@ CREATE INDEX IF NOT EXISTS idx_findings_verdict ON findings(verdict);
 
 
 def connect(path: str | Path | None = None) -> sqlite3.Connection:
+    """Open the store and make sure the schema exists.
+
+    ``check_same_thread=False`` is required, not optional. Streamlit runs each
+    script rerun on a different thread, and the app caches this connection with
+    @st.cache_resource, so the default single-thread guard raises
+    "SQLite objects created in a thread can only be used in that same thread"
+    the moment a second page view arrives. Writes are still serialised by
+    SQLite itself, and this application has one writer, so relaxing the guard
+    is safe here.
+    """
     path = Path(path) if path else DEFAULT_DB
     path.parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(str(path))
+    conn = sqlite3.connect(str(path), check_same_thread=False)
     conn.row_factory = sqlite3.Row
+    # WAL lets a reader (the dashboard) work while a writer (a save) commits.
+    conn.execute("PRAGMA journal_mode=WAL")
     conn.executescript(SCHEMA)
     return conn
 
